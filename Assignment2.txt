@@ -1,0 +1,55 @@
+*Single&Double quotes  and Multiline Strings
+
+
+
+>>>print(“Ayush’s dog”)                     #o/p:- Ayush’s dog
+
+>>>print(‘ ”Ayush” ‘)                         #o/p:- “Ayush”
+
+
+
+*Difference b/w remove() and pop()
+
+
+
+>>>list1=[‘cat’,’dog’,’horse’,’rabbit’]
+
+>>>list1.remove(‘rabbit)
+
+>>>print(list1)               #[‘cat’,’dog’,’rabbit’]
+
+>>>a=list1.pop(1)
+
+>>>print(a)                 # dog
+
+
+
+*frozenset
+
+>>>b={1,2,3,4,2,3}
+
+>>>fs=frozenset(b)
+
+>>>fs
+
+ Frozenset({1,2,3,4})
+
+>>>fs.add(5)   #error
+
+
+
+*nonetype
+
+>>>def no_return():
+
+              Pass
+
+>>>print(no_return)
+
+None
+
+>>>print(print(“Hi”))
+
+Hi
+
+None
